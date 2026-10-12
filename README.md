@@ -1,0 +1,1 @@
+This is the basic load balancer with 2 algorithm. One is `Round Robin` and other is `Least Connection`.
