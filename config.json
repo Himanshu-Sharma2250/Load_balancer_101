@@ -1,7 +1,7 @@
 {
     "servers": [
-        {"host": "localhost", "port": 3001, "timeout": 500},
-        {"host": "localhost", "port": 3002, "timeout": 1000},
-        {"host": "localhost", "port": 3003, "timeout": 300}
+        {"host": "localhost", "port": 3001, "timeout": 500, "weight": 2},
+        {"host": "localhost", "port": 3002, "timeout": 1000, "weight": 1},
+        {"host": "localhost", "port": 3003, "timeout": 300, "weight": 4}
     ]
 }
